@@ -13,6 +13,8 @@
 		64F90E9727072F26003F8990 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F90E9627072F26003F8990 /* Preview Assets.xcassets */; };
 		64F90EA427073081003F8990 /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F90EA327073081003F8990 /* TextBootcamp.swift */; };
 		64F90EA7270730A6003F8990 /* ShapeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F90EA6270730A6003F8990 /* ShapeBootcamp.swift */; };
+		64F90EAA2707313E003F8990 /* ColorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F90EA92707313E003F8990 /* ColorBootcamp.swift */; };
+		64F90EAD27073157003F8990 /* GradientBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F90EAC27073157003F8990 /* GradientBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		64F90E9827072F26003F8990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64F90EA327073081003F8990 /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
 		64F90EA6270730A6003F8990 /* ShapeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBootcamp.swift; sourceTree = "<group>"; };
+		64F90EA92707313E003F8990 /* ColorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBootcamp.swift; sourceTree = "<group>"; };
+		64F90EAC27073157003F8990 /* GradientBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				64F90E9127072F23003F8990 /* ContentView.swift */,
 				64F90EA327073081003F8990 /* TextBootcamp.swift */,
 				64F90EA6270730A6003F8990 /* ShapeBootcamp.swift */,
+				64F90EA92707313E003F8990 /* ColorBootcamp.swift */,
+				64F90EAC27073157003F8990 /* GradientBootcamp.swift */,
 				64F90E9327072F26003F8990 /* Assets.xcassets */,
 				64F90E9827072F26003F8990 /* Info.plist */,
 				64F90E9527072F26003F8990 /* Preview Content */,
@@ -144,9 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F90EAA2707313E003F8990 /* ColorBootcamp.swift in Sources */,
 				64F90EA7270730A6003F8990 /* ShapeBootcamp.swift in Sources */,
 				64F90E9227072F23003F8990 /* ContentView.swift in Sources */,
 				64F90EA427073081003F8990 /* TextBootcamp.swift in Sources */,
+				64F90EAD27073157003F8990 /* GradientBootcamp.swift in Sources */,
 				64F90E9027072F23003F8990 /* SwiftUI_BasicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
