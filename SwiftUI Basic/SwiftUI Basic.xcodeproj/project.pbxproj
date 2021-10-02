@@ -17,6 +17,7 @@
 		64F90EAD27073157003F8990 /* GradientBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F90EAC27073157003F8990 /* GradientBootcamp.swift */; };
 		64F90EB0270731D4003F8990 /* IconBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F90EAF270731D4003F8990 /* IconBootcamp.swift */; };
 		64F90EB3270731FF003F8990 /* ImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F90EB2270731FF003F8990 /* ImageBootcamp.swift */; };
+		DCF5DAE927085E2700FAA938 /* VstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF5DAE827085E2700FAA938 /* VstackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		64F90EAC27073157003F8990 /* GradientBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBootcamp.swift; sourceTree = "<group>"; };
 		64F90EAF270731D4003F8990 /* IconBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBootcamp.swift; sourceTree = "<group>"; };
 		64F90EB2270731FF003F8990 /* ImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBootcamp.swift; sourceTree = "<group>"; };
+		DCF5DAE827085E2700FAA938 /* VstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VstackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				64F90E9327072F26003F8990 /* Assets.xcassets */,
 				64F90E9827072F26003F8990 /* Info.plist */,
 				64F90E9527072F26003F8990 /* Preview Content */,
+				DCF5DAE827085E2700FAA938 /* VstackView.swift */,
 			);
 			path = "SwiftUI Basic";
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				64F90E9227072F23003F8990 /* ContentView.swift in Sources */,
 				64F90EA427073081003F8990 /* TextBootcamp.swift in Sources */,
 				64F90EAD27073157003F8990 /* GradientBootcamp.swift in Sources */,
+				DCF5DAE927085E2700FAA938 /* VstackView.swift in Sources */,
 				64F90EB3270731FF003F8990 /* ImageBootcamp.swift in Sources */,
 				64F90E9027072F23003F8990 /* SwiftUI_BasicApp.swift in Sources */,
 			);
