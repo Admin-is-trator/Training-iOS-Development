@@ -20,6 +20,8 @@
 		DCF5DAE927085E2700FAA938 /* VstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF5DAE827085E2700FAA938 /* VstackView.swift */; };
 		DCF5DAEC270878DA00FAA938 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF5DAEB270878DA00FAA938 /* Model.swift */; };
 		DCF5DAF0270930EE00FAA938 /* Inhiritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF5DAEF270930EE00FAA938 /* Inhiritance.swift */; };
+		DCF5DAF42709347B00FAA938 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF5DAF22709347B00FAA938 /* ButtonViewController.swift */; };
+		DCF5DAF52709347B00FAA938 /* ButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCF5DAF32709347B00FAA938 /* ButtonViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		DCF5DAE827085E2700FAA938 /* VstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VstackView.swift; sourceTree = "<group>"; };
 		DCF5DAEB270878DA00FAA938 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		DCF5DAEF270930EE00FAA938 /* Inhiritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inhiritance.swift; sourceTree = "<group>"; };
+		DCF5DAF22709347B00FAA938 /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		DCF5DAF32709347B00FAA938 /* ButtonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				64F90E9527072F26003F8990 /* Preview Content */,
 				DCF5DAEB270878DA00FAA938 /* Model.swift */,
 				DCF5DAEF270930EE00FAA938 /* Inhiritance.swift */,
+				DCF5DAF22709347B00FAA938 /* ButtonViewController.swift */,
+				DCF5DAF32709347B00FAA938 /* ButtonViewController.xib */,
 			);
 			path = "SwiftUI Basic";
 			sourceTree = "<group>";
@@ -153,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCF5DAF52709347B00FAA938 /* ButtonViewController.xib in Resources */,
 				64F90E9727072F26003F8990 /* Preview Assets.xcassets in Resources */,
 				64F90E9427072F26003F8990 /* Assets.xcassets in Resources */,
 			);
@@ -169,6 +176,7 @@
 				64F90EA7270730A6003F8990 /* ShapeBootcamp.swift in Sources */,
 				64F90EB0270731D4003F8990 /* IconBootcamp.swift in Sources */,
 				64F90E9227072F23003F8990 /* ContentView.swift in Sources */,
+				DCF5DAF42709347B00FAA938 /* ButtonViewController.swift in Sources */,
 				64F90EA427073081003F8990 /* TextBootcamp.swift in Sources */,
 				DCF5DAEC270878DA00FAA938 /* Model.swift in Sources */,
 				64F90EAD27073157003F8990 /* GradientBootcamp.swift in Sources */,
