@@ -14,6 +14,9 @@ struct ContentView: View {
                 List(devices){ result in
                     Text("Flagship devices: \(result.device)")
                 }
+                NavigationLink(destination: VstackView()){
+                    Text("VStack View")
+                }
             }
             .navigationTitle("Hello World!")
         }

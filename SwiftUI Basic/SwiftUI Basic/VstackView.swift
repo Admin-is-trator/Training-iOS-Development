@@ -10,12 +10,15 @@ import SwiftUI
 struct VstackView: View {
     var body: some View {
         
-        VStack{
+        VStack(alignment: .leading){
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
             Text("Hello, World!")
             Text("Hello, World!")
             Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            Spacer()
+            Text("I'm being separated by a Spacer.")
         }
+        .navigationTitle("VStack View")
         }
 }
 
