@@ -8,7 +8,10 @@
 import UIKit
 
 class ButtonViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var Button: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
