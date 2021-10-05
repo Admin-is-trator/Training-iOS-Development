@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isPresented: Bool = false
     var body: some View {
         NavigationView {
             VStack {
@@ -19,6 +20,16 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Hello World!")
+            .sheet(isPresented: $isPresented) {
+                Text("I'm a sheet.")
+            }
+            .toolbar {
+                Button(action:{
+                    self.isPresented.toggle()
+                }) {
+                    Image(systemName: "plus")
+                }
+            }
         }
     }
     struct iPhones: Identifiable {
