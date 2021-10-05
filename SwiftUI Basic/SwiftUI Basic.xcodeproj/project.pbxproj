@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18FA0752270CC55400AEC7D8 /* NewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA0751270CC55400AEC7D8 /* NewTask.swift */; };
 		64F90E9027072F23003F8990 /* SwiftUI_BasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F90E8F27072F23003F8990 /* SwiftUI_BasicApp.swift */; };
 		64F90E9227072F23003F8990 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F90E9127072F23003F8990 /* ContentView.swift */; };
 		64F90E9427072F26003F8990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F90E9327072F26003F8990 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18FA0751270CC55400AEC7D8 /* NewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTask.swift; sourceTree = "<group>"; };
 		64F90E8C27072F23003F8990 /* SwiftUI Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Basic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F90E8F27072F23003F8990 /* SwiftUI_BasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicApp.swift; sourceTree = "<group>"; };
 		64F90E9127072F23003F8990 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			children = (
 				64F90E8F27072F23003F8990 /* SwiftUI_BasicApp.swift */,
 				64F90E9127072F23003F8990 /* ContentView.swift */,
+				18FA0751270CC55400AEC7D8 /* NewTask.swift */,
 				64F90EA327073081003F8990 /* TextBootcamp.swift */,
 				64F90EA6270730A6003F8990 /* ShapeBootcamp.swift */,
 				64F90EA92707313E003F8990 /* ColorBootcamp.swift */,
@@ -174,6 +177,7 @@
 			files = (
 				64F90EAA2707313E003F8990 /* ColorBootcamp.swift in Sources */,
 				64F90EA7270730A6003F8990 /* ShapeBootcamp.swift in Sources */,
+				18FA0752270CC55400AEC7D8 /* NewTask.swift in Sources */,
 				64F90EB0270731D4003F8990 /* IconBootcamp.swift in Sources */,
 				64F90E9227072F23003F8990 /* ContentView.swift in Sources */,
 				DCF5DAF42709347B00FAA938 /* ButtonViewController.swift in Sources */,

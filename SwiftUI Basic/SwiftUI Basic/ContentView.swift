@@ -21,7 +21,7 @@ struct ContentView: View {
             }
             .navigationTitle("Hello World!")
             .sheet(isPresented: $isPresented) {
-                Text("I'm a sheet.")
+                NewTask()
             }
             .toolbar {
                 Button(action:{
